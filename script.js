@@ -2,8 +2,8 @@ function load() {
     let message = document.getElementById("message")
     let image = document.getElementById("image")
     let date = new Date()
-    let hour = date.getHours()
-    
+    /* let hour = date.getHours() */
+    let hour = 22
     message.innerHTML = `Now is <strong>${hour}</strong> hour(s).`
 
     if(hour >= 0 && hour < 12) {
